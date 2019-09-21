@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+  
+    line-height: 1.5;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    text-decoration: none;
+    word-spacing: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  nav {
+    display: inline;
+    list-style-type: none;
+    position: fixed;
+    text-align: center;  
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  header {
+    padding: 12% 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 12px;
+    height: 300px;
+    text-align: center;
+  }
+  
+  section {
+    height: 270px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+  
+  .project-label {
+    height: 5px;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+    height: 10px;
+    text-align: center;
+   
+  }
+  
+  section:nth-child(odd) {
+    font-size: 17px;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+  
+  .social-icons {
+    text-align: center;
+    word-spacing: 50px;
+  }
+  
+  .fa-github, .fa-linkedin, .fa-envelope {
+    font-size: 40px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 11px;
+  }
+  
+  @media(min-width: 568px) {
+    nav {
+      
+    }
+  
+    header {
+    padding-left: 390px;
+    padding-right: 390px;
+    height: 400px;
+    }
+  }
